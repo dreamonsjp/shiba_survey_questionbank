@@ -1,0 +1,402 @@
+2014-01-10 06:07:33 Error: 1
+2014-01-10 06:14:53 Error: [MissingActionException] Action UserGroupsController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserGroupsController',
+  'action' => 'admin_index',
+)
+Request URL: /admin/usermgmt/UserGroups
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UserGroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-10 06:16:12 Error: [MissingActionException] Action UserGroupsController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserGroupsController',
+  'action' => 'admin_index',
+)
+Request URL: /admin/usermgmt/UserGroups
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UserGroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-10 06:25:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /admin/questions/add
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `qu...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `qu...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Question), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php(81): Model->save(Array, false)
+#5 [internal function]: QuestionsController->admin_add()
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-01-10 06:27:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /admin/questions/add
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `qu...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `qu...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Question), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php(81): Model->save(Array, false)
+#5 [internal function]: QuestionsController->admin_add()
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-01-10 20:32:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.10.2.js
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-10 20:33:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.10.2.js
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-10 07:44:33 Error: [MissingActionException] Action UserGroupsController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UserGroupsController',
+  'action' => 'admin_index',
+)
+Request URL: /admin/usermgmt/UserGroups
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UserGroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-10 09:21:03 Error: [MissingActionException] Action UsersController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_index',
+)
+Request URL: /admin/usermgmt/Users
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-10 09:41:18 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/View/Questions/admin_index.ctp, line 27]
+2014-01-10 09:41:18 Error: [FatalErrorException] parse error, expecting `','' or `';''
+Request URL: /admin/questions
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/junichik...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/junichik...', 27, Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/junichik...', 27, Array)
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-10 22:00:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'addValidate' at line 1
+Request URL: /admin/categories/add
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('addValidate', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('addValidate', Array, Array)
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('addValidate', Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(800): DboSource->query('addValidate', Array, Object(Category))
+#5 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/CategoriesController.php(55): Model->__call('addValidate', Array)
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/CategoriesController.php(55): Category->addValidate()
+#7 [internal function]: CategoriesController->admin_add()
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-10 22:09:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'parent_category_id' cannot be null
+Request URL: /admin/categories/add
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `qu...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `qu...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Category), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/CategoriesController.php(69): Model->save(Array, false)
+#5 [internal function]: CategoriesController->admin_add()
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-01-11 04:46:16 Error: [MissingActionException] Action UsersController::admin_dashboard() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_dashboard',
+)
+Request URL: /admin/usermgmt/Users/dashboard
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-11 05:26:42 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT `Category`.`` FROM `question_bank`.`categories` AS `Category`   WHERE `' at line 1
+Request URL: /categories/json_index/
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Categor...', false)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(2900): DboSource->read(Object(Category), Array)
+#5 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(2872): Model->_readDataSource('all', Array)
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/CategoriesController.php(152): Model->find('all', Array)
+#7 [internal function]: CategoriesController->json_index()
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-11 05:33:48 Error: [MissingActionException] Action QuestionsController::json_data() could not be found.
+Exception Attributes: array (
+  'controller' => 'QuestionsController',
+  'action' => 'json_data',
+)
+Request URL: /questions/json_data/
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-11 19:46:54 Error: Fatal Error (4): parse error in [/Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php, line 189]
+2014-01-11 19:46:54 Error: [FatalErrorException] parse error
+Request URL: /questions/json_get/1
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/junichik...', 189)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/junichik...', 189, Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/junichik...', 189, Array)
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-13 18:26:50 Error: [MissingControllerException] Controller class QuestionsController could not be found.
+Exception Attributes: array (
+  'class' => 'QuestionsController',
+  'plugin' => 'Usermgmt',
+)
+Request URL: /usermgmt/Questions/add
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-13 18:27:19 Error: [MissingControllerException] Controller class QuestionsController could not be found.
+Exception Attributes: array (
+  'class' => 'QuestionsController',
+  'plugin' => 'Usermgmt',
+)
+Request URL: /usermgmt/Questions/add
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-13 04:38:09 Error: [MissingActionException] Action CategoriesController::json_get() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'json_get',
+)
+Request URL: /categories/json_get/1
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-13 18:39:32 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/CategoriesController.php, line 145]
+2014-01-13 18:39:32 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /categories/json_list
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/junichik...', 145)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/junichik...', 145, Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/junichik...', 145, Array)
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-13 21:26:35 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-13 18:47:46 Error: [MissingActionException] Action CategoriesController::list_json() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'list_json',
+)
+Request URL: /categories/list_json
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-13 18:48:06 Error: [MissingActionException] Action CategoriesController::list_json() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'list_json',
+)
+Request URL: /categories/list_json
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-13 18:52:55 Error: [MissingActionException] Action QuestionsController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'QuestionsController',
+  'action' => 'admin_index',
+)
+Request URL: /admin/questions
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-13 18:59:39 Error: [MissingActionException] Action CategoriesController::json_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'json_index',
+)
+Request URL: /categories/json_index/
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-14 10:13:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/screen_howtoget_lsq.jpg
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-13 21:48:57 Error: [MissingActionException] Action QuestionsController::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'QuestionsController',
+  'action' => 'admin_index',
+)
+Request URL: /admin/questions
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 17:23:04 Error: [MissingControllerException] Controller class AdController could not be found.
+Exception Attributes: array (
+  'class' => 'AdController',
+  'plugin' => NULL,
+)
+Request URL: /ad
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-14 17:23:07 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-14 17:23:14 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-14 04:45:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /questions/edit/18
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `questio...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `questio...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Question), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php(132): Model->save(Array, false)
+#5 [internal function]: QuestionsController->edit('18')
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-14 04:51:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /questions/edit/18
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `questio...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `questio...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Question), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php(132): Model->save(Array, false)
+#5 [internal function]: QuestionsController->edit('18')
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-14 04:53:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /questions/edit/18
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `questio...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `questio...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Question), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php(135): Model->save(Array, false)
+#5 [internal function]: QuestionsController->edit('18')
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-14 04:55:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /questions/edit/18
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `questio...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `questio...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Question), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php(135): Model->save(Array, false)
+#5 [internal function]: QuestionsController->edit('18')
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-14 04:58:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /questions/edit/18
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `questio...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `questio...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Question), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php(136): Model->save(Array, false)
+#5 [internal function]: QuestionsController->edit('18')
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-14 04:59:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /questions/edit/18
+Stack Trace:
+#0 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('UPDATE `questio...', Array)
+#2 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Datasource/Database/Mysql.php(400): DboSource->execute('UPDATE `questio...')
+#3 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Model/Model.php(1821): Mysql->update(Object(Question), Array, Array)
+#4 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/Controller/QuestionsController.php(136): Model->save(Array, false)
+#5 [internal function]: QuestionsController->edit('18')
+#6 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#7 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/junichikawai/Documents/workspace/question_bank/cakephp-2.4.4/question_bank/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

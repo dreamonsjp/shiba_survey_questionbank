@@ -1,0 +1,955 @@
+2014-01-09 20:36:43 Debug: permission: actionUrl-categories/admin_index
+2014-01-10 06:09:41 Debug: is_put1
+2014-01-10 06:09:41 Debug: 1
+2014-01-10 06:09:50 Debug: is_put1
+2014-01-10 06:09:50 Debug: 1
+2014-01-10 06:09:55 Debug: is_put1
+2014-01-10 06:09:55 Debug: 1
+2014-01-10 06:10:06 Debug: is_put1
+2014-01-10 06:10:06 Debug: 1
+2014-01-10 06:10:08 Debug: is_put1
+2014-01-10 06:10:08 Debug: 1
+2014-01-10 06:11:14 Debug: is_put1
+2014-01-10 06:11:14 Debug: 1
+2014-01-10 06:11:16 Debug: is_put1
+2014-01-10 06:11:16 Debug: 1
+2014-01-10 06:12:31 Debug: is_put1
+2014-01-10 06:12:31 Debug: 1
+2014-01-10 06:13:22 Debug: is_put 1
+2014-01-10 06:13:22 Debug: isAjax 1
+2014-01-10 06:13:49 Debug: is_put 1
+2014-01-10 06:13:49 Debug: isAjax 1
+2014-01-10 06:13:59 Debug: is_put 1
+2014-01-10 06:15:30 Debug: isPost 1
+2014-01-10 06:15:30 Debug: isAjax 1
+2014-01-10 06:15:32 Debug: isPost 1
+2014-01-10 06:17:02 Debug: isPost 1
+2014-01-10 06:17:02 Debug: isAjax 1
+2014-01-10 06:18:28 Debug: isPost 1
+2014-01-10 06:18:35 Debug: isPost 1
+2014-01-10 06:18:35 Debug: isPost 1
+2014-01-10 06:20:38 Debug: isPost 1
+2014-01-10 06:20:58 Debug: isPost 1
+2014-01-10 06:21:19 Debug: isPost 1
+2014-01-10 06:21:19 Debug: isAjax 1
+2014-01-10 06:21:20 Debug: isPost 1
+2014-01-10 06:21:33 Debug: isPost 1
+2014-01-10 06:21:33 Debug: isAjax 1
+2014-01-10 06:21:48 Debug: isPost 1
+2014-01-10 06:21:54 Debug: isPost 1
+2014-01-10 06:25:14 Debug: isPost 1
+2014-01-10 06:25:14 Debug: isAjax 1
+2014-01-10 06:25:17 Debug: isPost 1
+2014-01-10 06:29:14 Debug: isPost 1
+2014-01-10 06:29:14 Debug: isAjax 1
+2014-01-10 06:29:19 Debug: isPost 1
+2014-01-10 06:29:41 Debug: isPost 1
+2014-01-10 06:29:41 Debug: isAjax 1
+2014-01-10 06:29:42 Debug: isPost 1
+2014-01-10 06:30:25 Debug: isPost 1
+2014-01-10 06:30:25 Debug: isAjax 1
+2014-01-10 06:30:26 Debug: isPost 1
+2014-01-10 06:30:43 Debug: isPost 1
+2014-01-10 06:30:43 Debug: isAjax 1
+2014-01-10 06:40:47 Debug: isPost 1
+2014-01-10 06:40:55 Debug: isPost 1
+2014-01-10 06:40:57 Debug: isPost 1
+2014-01-10 06:44:00 Debug: id 1
+2014-01-10 06:45:03 Debug: id 11
+2014-01-10 06:45:34 Debug: id 11
+2014-01-10 06:45:34 Debug: isPost 
+2014-01-10 06:46:16 Debug: id 11
+2014-01-10 06:46:16 Debug: isPost 
+2014-01-10 06:46:31 Debug: id 11
+2014-01-10 06:46:43 Debug: id 11
+2014-01-10 06:49:30 Debug: id 11
+2014-01-10 06:51:27 Debug: id 11
+2014-01-10 06:51:31 Debug: id 11
+2014-01-10 06:51:31 Debug: isPost 
+2014-01-10 06:51:31 Debug: id 11
+2014-01-10 06:51:31 Debug: isPost 
+2014-01-10 06:51:40 Debug: id 11
+2014-01-10 06:51:44 Debug: id 11
+2014-01-10 06:51:44 Debug: isPost 
+2014-01-10 06:51:44 Debug: id 11
+2014-01-10 06:51:44 Debug: isPost 
+2014-01-10 07:36:57 Debug: id 11
+2014-01-10 07:44:04 Debug: id 17
+2014-04-14 04:45:29 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => Array
+                (
+                    [name] => 
+                    [type] => 
+                    [tmp_name] => 
+                    [error] => 4
+                    [size] => 0
+                )
+
+        )
+
+)
+
+2014-04-14 04:45:45 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[319]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[5]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Test Survey Language English Question A1]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A1 Help]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+</document>
+
+            [qid] => 319
+            [sid] => 263214
+            [gid] => 20
+            [title] => A1
+            [type] => 5
+            [question] => Test Survey Language English Question A1
+            [language] => 22
+            [relevance] => 1
+        )
+
+)
+
+2014-04-14 04:51:17 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => Array
+                (
+                    [name] => 
+                    [type] => 
+                    [tmp_name] => 
+                    [error] => 4
+                    [size] => 0
+                )
+
+        )
+
+)
+
+2014-04-14 04:53:13 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => Array
+                (
+                    [name] => 
+                    [type] => 
+                    [tmp_name] => 
+                    [error] => 4
+                    [size] => 0
+                )
+
+        )
+
+)
+
+2014-04-14 04:55:38 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+        )
+
+)
+
+2014-04-14 04:58:56 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => Array
+                (
+                    [Question] => Array
+                        (
+                            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[319]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[5]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Test Survey Language English Question A1]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A1 Help]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+</document>
+
+                        )
+
+                )
+
+        )
+
+)
+
+2014-04-14 04:59:28 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => Array
+                (
+                    [Question] => Array
+                        (
+                            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[319]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[5]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Test Survey Language English Question A1]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A1 Help]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+</document>
+
+                        )
+
+                )
+
+        )
+
+)
+
+2014-04-14 05:00:02 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[319]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[5]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Test Survey Language English Question A1]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A1 Help]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+</document>
+
+        )
+
+)
+
+2014-04-14 05:00:32 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[319]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[5]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Test Survey Language English Question A1]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A1 Help]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+</document>
+
+            [qid] => 319
+            [sid] => 263214
+            [gid] => 20
+            [title] => A1
+            [type] => 5
+            [question] => Test Survey Language English Question A1
+            [language] => 22
+            [relevance] => 1
+        )
+
+)
+
+2014-04-14 05:02:09 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[319]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[5]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Test Survey Language English Question A1]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A1 Help]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+</document>
+
+            [qid] => 319
+            [sid] => 263214
+            [gid] => 20
+            [title] => A1
+            [type] => 5
+            [question] => Test Survey Language English Question A1
+            [language] => 22
+            [relevance] => 1
+        )
+
+)
+
+2014-04-14 05:02:38 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[319]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[5]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Test Survey Language English Question A1]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A1 Help]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+</document>
+
+        )
+
+)
+
+2014-04-14 05:02:47 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[!]]></type>
+    <title><![CDATA[A2]]></title>
+    <question><![CDATA[Test Survey Language English Question A2]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A2]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A21]]></code>
+    <answer><![CDATA[Answer option A2 01]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A22]]></code>
+    <answer><![CDATA[Answer option A2 02]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A23]]></code>
+    <answer><![CDATA[Answer option A2 03]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A24]]></code>
+    <answer><![CDATA[Answer option A2 04]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A25]]></code>
+    <answer><![CDATA[Answer option A2 05]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+</document>
+
+            [qid] => 320
+            [sid] => 263214
+            [gid] => 20
+            [title] => A2
+            [type] => !
+            [question] => Test Survey Language English Question A2
+            [language] => 22
+            [relevance] => 1
+            [answer] => Answer option A2 01
+Answer option A2 02
+Answer option A2 03
+        )
+
+)
+
+2014-04-14 05:03:04 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 18
+            [lang_id] => 22
+            [category_id] => 14
+            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[263214]]></sid>
+    <gid><![CDATA[20]]></gid>
+    <type><![CDATA[!]]></type>
+    <title><![CDATA[A2]]></title>
+    <question><![CDATA[Test Survey Language English Question A2]]></question>
+    <preg/>
+    <help><![CDATA[Test Survey Language English Question A2]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A21]]></code>
+    <answer><![CDATA[Answer option A2 01]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A22]]></code>
+    <answer><![CDATA[Answer option A2 02]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A23]]></code>
+    <answer><![CDATA[Answer option A2 03]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A24]]></code>
+    <answer><![CDATA[Answer option A2 04]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[320]]></qid>
+    <code><![CDATA[A25]]></code>
+    <answer><![CDATA[Answer option A2 05]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+</document>
+
+        )
+
+)
+
+2014-04-14 05:03:24 Debug: Array
+(
+    [Question] => Array
+        (
+            [id] => 17
+            [lang_id] => 22
+            [category_id] => 1
+            [question_data] => <?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Question</LimeSurveyDocType>
+ <DBVersion>164</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[19]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[771642]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[!]]></type>
+    <title><![CDATA[Top_1b]]></title>
+    <question><![CDATA[Province]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[19]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[Province 1]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[19]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[Province 2]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[19]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[Province 3]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+</document>
+
+        )
+
+)
+
